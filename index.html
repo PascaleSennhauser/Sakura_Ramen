@@ -6,90 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sakura Ramen</title>
 
-<!-- CSS -->
-
-<link rel="stylesheet" href="./style.css">
-
-<!-- Schriftarten -->
+<!-- Fonts -->
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Economica:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
 
+<!-- CSS -->
+
+<link rel="stylesheet" href="./style.css">
+
 <!-- JavaScript -->
 
-<script>
-    function german(){
-        /* title */
-
-        document.getElementById('jsMenu').innerHTML = 'MENÜ';
-        document.getElementById('jsLocations').innerHTML = 'STANDORT';
-        document.getElementById('jsAbout').innerHTML = 'ÜBER UNS';
-        document.getElementById('headlineDesc').innerHTML = 'DIE BESTEN RAMEN IN DER STADT';
-
-        /* How to order */
-
-        document.getElementById('jsHtoTitle').innerHTML = 'BESTELLVORGANG';
-        document.getElementById('hto1').innerHTML = `Wähle deine<br> Nudeln`;
-        document.getElementById('hto2').innerHTML = `Wähle deine<br> Brühe`;
-        document.getElementById('hto3').innerHTML = `Wähle deine<br> Toppings`;
-
-        /* Our Menu */
-
-        document.getElementById('jsOmTitle').innerHTML = 'UNSER MENÜ';
-        document.getElementById('jsChicken').innerHTML = 'Huhn';
-        document.getElementById('jsBeef').innerHTML = 'Rind';
-        document.getElementById('jsShrimp').innerHTML = 'Shrimp';
-        document.getElementById('jsChicken2').innerHTML = 'Huhn';
-        document.getElementById('jsBeef2').innerHTML = 'Rind';
-        document.getElementById('jsShrimp2').innerHTML = 'Shrimp';
-        document.getElementById('jsChicken3').innerHTML = 'Huhn';
-        document.getElementById('jsBeef3').innerHTML = 'Rind';
-        document.getElementById('jsShrimp3').innerHTML = 'Shrimp';
-
-        /* Find us at */
-
-        document.getElementById('jsFuaTitle').innerHTML = 'UNSER STANDORT';
-
-        }
-
-    function english(){
-
-        /* title */
-
-        document.getElementById('jsMenu').innerHTML = 'MENU';
-        document.getElementById('jsLocations').innerHTML = 'LOCATIONS';
-        document.getElementById('jsAbout').innerHTML = 'ABOUT';
-        document.getElementById('headlineDesc').innerHTML = 'THE BEST RAMEN IN TOWN';
-
-        /* How to order */
-
-        document.getElementById('jsHtoTitle').innerHTML = 'HOW TO ORDER';
-        document.getElementById('hto1').innerHTML = `Pick your<br> noodle`;
-        document.getElementById('hto2').innerHTML = `Pick your<br> broth`;
-        document.getElementById('hto3').innerHTML = `Pick your<br> toppings`;
-
-        /* Our Menu */
-
-        document.getElementById('jsOmTitle').innerHTML = 'OUR MENU';
-        document.getElementById('jsChicken').innerHTML = 'Chicken';
-        document.getElementById('jsBeef').innerHTML = 'Beef';
-        document.getElementById('jsShrimp').innerHTML = 'Shrimp';
-        document.getElementById('jsChicken2').innerHTML = 'Chicken';
-        document.getElementById('jsBeef2').innerHTML = 'Beef';
-        document.getElementById('jsShrimp2').innerHTML = 'Shrimp';
-        document.getElementById('jsChicken3').innerHTML = 'Chicken';
-        document.getElementById('jsBeef3').innerHTML = 'Beef';
-        document.getElementById('jsShrimp3').innerHTML = 'Shrimp';
-
-        /* Find us at */
-
-        document.getElementById('jsFuaTitle').innerHTML = 'FIND US AT';
-
-    }
-
-</script>
+<script src="./script.js"></script>
 
 </head>
 <body>
@@ -142,6 +72,7 @@
     </section>
 
     <!-- Our Menu -->
+
     <section class="section-om">
 
         <div class="om-container" id="menu">
@@ -228,6 +159,7 @@
     </section>
 
     <!-- footer -->
+    
     <footer>
         <div class="footer-container" id="about">
                 <img class="sakura-logo-footer1" src="./assets/img/5_section_footer/PNG/sakura_ramen_logo_and_text.png">

@@ -1,563 +1,555 @@
-        /* html */
-
-        html {
-            scroll-behavior: smooth;
-        }
-
-        /* fonts */
-
-        body {
-            font-family: 'Raleway', sans-serif;
-            font-size: 24px;
-            margin: 0;
-            color: #000;
-        }
-
-        h1 {
-            font-family: 'Raleway', sans-serif;
-            font-weight: bold;
-            font-size: 96px;
-            margin-block-start: 0;
-            margin-block-end: 0;
-            text-align: center;
-        }
-
-        h2 {
-            font-family: 'Raleway', sans-serif;
-            font-weight: bold;
-            font-size: 80px;
-            color: #9f0908;
-            margin-block-start: 0;
-            margin-block-end: 0;
-        }
-
-        h3 {
-            font-family: 'Economica', sans-serif;
-            font-weight: bold;
-            font-size: 56px;
-            margin-block-start: 0;
-            margin-block-end: 0;
-        }
-
-        nav {
-            font-size: 16px;
-        }
-
-        table {
-            font-family: 'Raleway', sans-serif;
-            font-weight: bold;
-            font-size: 32px;
-            color: #675E54
-        }
-
-
-        /* Above the fold */
-
-        .aot {
-            height: 100vh;
-            background-image: url(./assets/img/1_hero/JPG/hero_bg.jpg);
-            background-size: cover;
-            background-position: center;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            color: #FFF;
-            padding-left: 160px;
-            padding-right: 160px;
-
-        }
-
-        header {
-            height: 112px;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding-left: 160px;
-            padding-right: 160px;
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-        }
-
-
-        .sakura_logo {
-            width: 64px;
-            height: 64px;
-        }
-
-        nav {
-            display: flex;
-            justify-content: space-evenly;
-            align-items: center;
-        }
-
-        nav a {
-            color: #fff;
-            text-decoration: none;
-            margin-left: 40px;
-        }
-
-        nav a:hover {
-            text-decoration: underline;
-        }
-
-
-        .phone-btn {
-            background-color: #9f0908;
-            padding: 10px;
-            border-radius: 10px;
-            border-color: #fff;
-            border-width: 2px;
-            border-style: solid;
-            display: flex;
-            align-items: center;
-        }
-
-        .phone-icon {
-            height: 24px;
-            padding-right: 4px;
-        }
-
-        .phone-btn:hover {
-            background-color: #9f4545;
-            text-decoration: none !important;
-        }
-
-        .ger-flag,
-        .engl-flag {
-            height: 24px;
-        }
-
-        .ger-flag {
-            margin-left: 40px;
-        }
-
-        .flag-hover:hover {
-            cursor: pointer;
-            transform: scale(1.5);
-        }
-
-        .engl-flag {
-            margin-left: 16px;
-        }
-
-        .headline-container {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            color: #fff;
-            margin-top: 30vh;
-        }
-
-        .headline-container h1 {
-            margin-bottom: 16px;
-        }
-
-
-        /* How to order */
-
-        .section-hto {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            padding: 120px 160px;
-        }
-
-        .hto-steps-container {
-            width: 80vw;
-            display:flex;
-            flex-direction: row;
-            justify-content: space-between;
-            margin-top: 64px;
-        }
-
-
-        .hto-img-step-container {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
-
-        .hto-img {
-            width: 128px;
-            margin-bottom: 16px;
-        }
-
-        .section-hto h3,
-        .section-hto, p {
-            text-align: center;
-        }
-
-
-
-        /* Our Menu */
-
-        .section-om {
-            background-image: url(./assets/img/3_section_our_menu/JPG/section_our_menu_bg.jpg);
-            background-size: cover;
-            background-position: center;
-        }
-
-        .om-container {
-            padding: 120px 160px;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
-
-        .om-img1,
-        .om-img2,
-        .om-img3 {
-            width: 352px;
-            height: 352px;
-        }
-
-        .om-img1,
-        .om-img3 {
-            margin-right: 80px;
-        }
-
-        .om-img2 {
-            margin-left: 80px;
-        }
-
-        .om-dish-container {
-            width: 100%;
-        }
-
-        .om-dish-img-container1 {
-            margin-top: 64px;
-        }
-
-        .om-dish-img-container2 {
-            margin-top: 56px;
-        }
-
-        .om-dish-img-container3 {
-            margin-top: 56px;
-        }
-
-        .om-center {
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-            justify-content: center;
-        }
-
-        .om-center-reverse {
-            display: flex;
-            flex-direction: row-reverse;
-            align-items: center;
-            justify-content: center;
-        }
-
-        .td1 {
-            width: 300px;
-        }
-
-        table {
-            border-spacing: 8px;
-        }
-
-        .om-container h3 {
-            margin-bottom: 16px;
-        }
-
-        /* Find us at */
-
-        .section-fua {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            padding-top: 120px;
-        }
-
-        .section-fua h2 {
-            margin-bottom: 8px;
-        }
-
-        .adresse {
-            margin-bottom: 64px;
-            display: flex;
-            align-items: center;
-        }
-
-        .map-marker {
-            height: 24px;
-            margin-right: 4px;
-        }
-
-        .google-maps {
-            width: 100%;
-            height: 600px;
-        }
-
-        /* footer */
-
-        footer {
-            background-color: #0A141E;
-            height: 144px;
-        }
-
-        .footer-container {
-            margin-left: 160px;
-            margin-right: 160px;
-            height: 144px;          
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-
-        .sakura-logo-footer1 {
-            width: auto;
-            height: 44px;
-        }
-
-        .sakura-logo-footer2 {
-            display: none;
-            height: 40px;
-        }
-
-        .logo-footer {
-            width: 40px;
-            height: 40px;
-            margin-left: 8px;
-        }
-        /* Tablet */
-
-        @media(max-width: 1100px) {
-
-            /* fonts */
-
-            body {
-                font-size: 20px;
-            }
-
-
-            h1 {
-                font-size: 72px;
-            }
-
-            h2 {
-                font-size: 64px;
-            }
-
-            h3 {
-                font-size: 32px;
-            }
-
-            /* Above the fold */
-
-            .aot,
-            header {
-                padding-left: 24px;
-                padding-right: 24px;
-            }
-
-            .phone-icon {
-                height: 20px;
-            }
-
-            .hide-mobile {
-                display: none;
-            }
-
-            /* How to order */
-
-            .section-hto {
-                padding: 96px 24px;
-            }
-
-
-            .hto-steps-container {
-                margin-top: 48px;
-            }
-
-
-            .hto-img {
-                width: 112px;
-                margin-bottom: 8px;
-                padding-left: 40px;
-                padding-right: 40px;
-            }
-
-            /* Our Menu */
-
-            .om-container {
-                padding: 96px 24px;
-            }
-
-            .om-img1,
-            .om-img3 {
-                margin-right: 24px;
-            }
-
-            .om-img2 {
-                margin-left: 24px;
-            }
-
-            .om-dish-img-container1 {
-                margin-top: 48px;
-            }
-
-            .om-dish-img-container2,
-            .om-dish-img-container3 {
-                margin-top: 32px;
-            }
-
-            /* Find us at */
-
-            .section-fua {
-                padding-top: 96px;
-            }
-
-            .adresse {
-                margin-bottom: 48px;
-            }
-
-            .map-marker {
-                height: 20px;
-            }
-
-            /* footer */
-
-            .footer-container {
-                margin-left: 24px;
-                margin-right: 24px;
-            }
-
-        }
-
-        /* Mobile */
-
-        @media(max-width:650px) {
-            /* fonts */
-
-            body {
-                font-size: 16px;
-            }
-
-
-            h1 {
-                font-size: 42px;
-            }
-
-            h2 {
-                font-size: 40px;
-            }
-
-            h3 {
-                font-size: 32px;
-            }
-
-            /* Above the fold */
-
-            .aot,
-            header {
-                padding-left: 16px;
-                padding-right: 16px;
-            }
-
-            .sakura_logo {
-                width: 40px;
-                height: 40px;
-            }
-
-            .hide-mobile {
-                display: none;
-            }
-
-            /* How to order */
-            .section-hto {
-                padding: 72px 16px;
-            }
+/* html */
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* fonts */
+
+body {
+    font-family: 'Raleway', sans-serif;
+    font-size: 24px;
+    margin: 0;
+    color: #000;
+}
+
+h1 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 96px;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 80px;
+    color: #9f0908;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+h3 {
+    font-family: 'Economica', sans-serif;
+    font-weight: bold;
+    font-size: 56px;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+nav {
+    font-size: 16px;
+}
+
+table {
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 32px;
+    color: #675E54
+}
+
+/* Above the fold */
+
+.aot {
+    height: 100vh;
+    background-image: url(./assets/img/1_hero/JPG/hero_bg.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #FFF;
+    padding-left: 160px;
+    padding-right: 160px;
+
+}
+
+header {
+    height: 112px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 160px;
+    padding-right: 160px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.sakura_logo {
+    width: 64px;
+    height: 64px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 40px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.phone-btn {
+    background-color: #9f0908;
+    padding: 10px;
+    border-radius: 10px;
+    border-color: #fff;
+    border-width: 2px;
+    border-style: solid;
+    display: flex;
+    align-items: center;
+}
+
+.phone-icon {
+    height: 24px;
+    padding-right: 4px;
+}
+
+.phone-btn:hover {
+    background-color: #9f4545;
+    text-decoration: none !important;
+}
+
+.ger-flag,
+.engl-flag {
+    height: 24px;
+}
+
+.ger-flag {
+    margin-left: 40px;
+}
+
+.flag-hover:hover {
+    cursor: pointer;
+    transform: scale(1.5);
+}
+
+.engl-flag {
+    margin-left: 16px;
+}
+
+.headline-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+    margin-top: 30vh;
+}
+
+.headline-container h1 {
+    margin-bottom: 16px;
+}
+
+/* How to order */
+
+.section-hto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 120px 160px;
+}
+
+.hto-steps-container {
+    width: 80vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 64px;
+}
+
+.hto-img-step-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hto-img {
+    width: 128px;
+    margin-bottom: 16px;
+}
+
+.section-hto h3,
+.section-hto,
+p {
+    text-align: center;
+}
+
+/* Our Menu */
+
+.section-om {
+    background-image: url(./assets/img/3_section_our_menu/JPG/section_our_menu_bg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.om-container {
+    padding: 120px 160px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.om-img1,
+.om-img2,
+.om-img3 {
+    width: 352px;
+    height: 352px;
+}
+
+.om-img1,
+.om-img3 {
+    margin-right: 80px;
+}
+
+.om-img2 {
+    margin-left: 80px;
+}
+
+.om-dish-container {
+    width: 100%;
+}
+
+.om-dish-img-container1 {
+    margin-top: 64px;
+}
+
+.om-dish-img-container2 {
+    margin-top: 56px;
+}
+
+.om-dish-img-container3 {
+    margin-top: 56px;
+}
+
+.om-center {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.om-center-reverse {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+}
+
+.td1 {
+    width: 300px;
+}
+
+table {
+    border-spacing: 8px;
+}
+
+.om-container h3 {
+    margin-bottom: 16px;
+}
+
+/* Find us at */
+
+.section-fua {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 120px;
+}
+
+.section-fua h2 {
+    margin-bottom: 8px;
+}
+
+.adresse {
+    margin-bottom: 64px;
+    display: flex;
+    align-items: center;
+}
+
+.map-marker {
+    height: 24px;
+    margin-right: 4px;
+}
+
+.google-maps {
+    width: 100%;
+    height: 600px;
+}
+
+/* footer */
+
+footer {
+    background-color: #0A141E;
+    height: 144px;
+}
+
+.footer-container {
+    margin-left: 160px;
+    margin-right: 160px;
+    height: 144px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sakura-logo-footer1 {
+    width: auto;
+    height: 44px;
+}
+
+.sakura-logo-footer2 {
+    display: none;
+    height: 40px;
+}
+
+.logo-footer {
+    width: 40px;
+    height: 40px;
+    margin-left: 8px;
+}
+
+/* Tablet */
+
+@media(max-width: 1100px) {
+
+    /* fonts */
+
+    body {
+        font-size: 20px;
+    }
+
+
+    h1 {
+        font-size: 72px;
+    }
+
+    h2 {
+        font-size: 64px;
+    }
+
+    h3 {
+        font-size: 32px;
+    }
+
+    /* Above the fold */
+
+    .aot,
+    header {
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+
+    .phone-icon {
+        height: 20px;
+    }
+
+    .hide-mobile {
+        display: none;
+    }
+
+    /* How to order */
+
+    .section-hto {
+        padding: 96px 24px;
+    }
+
+    .hto-steps-container {
+        margin-top: 48px;
+    }
+
+    .hto-img {
+        width: 112px;
+        margin-bottom: 8px;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    /* Our Menu */
+
+    .om-container {
+        padding: 96px 24px;
+    }
+
+    .om-img1,
+    .om-img3 {
+        margin-right: 24px;
+    }
+
+    .om-img2 {
+        margin-left: 24px;
+    }
+
+    .om-dish-img-container1 {
+        margin-top: 48px;
+    }
+
+    .om-dish-img-container2,
+    .om-dish-img-container3 {
+        margin-top: 32px;
+    }
+
+    /* Find us at */
+
+    .section-fua {
+        padding-top: 96px;
+    }
+
+    .adresse {
+        margin-bottom: 48px;
+    }
+
+    .map-marker {
+        height: 20px;
+    }
+
+    /* footer */
+
+    .footer-container {
+        margin-left: 24px;
+        margin-right: 24px;
+    }
+}
+
+/* Mobile */
+
+@media(max-width:650px) {
+    /* fonts */
+
+    body {
+        font-size: 16px;
+    }
+
+    h1 {
+        font-size: 42px;
+    }
+
+    h2 {
+        font-size: 40px;
+    }
+
+    h3 {
+        font-size: 32px;
+    }
+
+    /* Above the fold */
+
+    .aot,
+    header {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .sakura_logo {
+        width: 40px;
+        height: 40px;
+    }
+
+    .hide-mobile {
+        display: none;
+    }
+
+    /* How to order */
     
-            .hto-steps-container {
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-            }
-    
-            .hto-img {
-                width: 112px;
-                margin-bottom: 8px;
-                margin-top: 32px;
-            }
+    .section-hto {
+        padding: 72px 16px;
+    }
 
-            /* Our Menu */
-    
-            .om-container {
-                padding: 72px 16px;
-            }
+    .hto-steps-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 
-            .om-img1 {
-                margin-top: 40px;
-                margin-bottom: 24px;
-                margin-right: 0;
-            }
-    
-            .om-img2 {
-                margin-top: 32px;
-                margin-bottom: 24px;
-                margin-left: 0;
-            }
+    .hto-img {
+        width: 112px;
+        margin-bottom: 8px;
+        margin-top: 32px;
+    }
 
-            .om-img3 {
-                margin-top: 32px;
-                margin-bottom: 24px;
-                margin-right: 0;
-            }
-    
-            .om-center {
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-                justify-content: space-between;
-            }
-    
-            .om-center-reverse {
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-                justify-content: space-between;
-            }
-    
-            /* Find us at */
+    /* Our Menu */
 
-            .section-fua {
-                padding-top: 72px;
-            }
+    .om-container {
+        padding: 72px 16px;
+    }
 
-            .section-fua h2 {
-                margin-bottom: 8px;
-            }
+    .om-img1 {
+        margin-top: 40px;
+        margin-bottom: 24px;
+        margin-right: 0;
+    }
 
-            .adresse {
-                margin-bottom: 40px;
-            }
+    .om-img2 {
+        margin-top: 32px;
+        margin-bottom: 24px;
+        margin-left: 0;
+    }
 
-            .map-marker {
-                height: 16px;
-            }
+    .om-img3 {
+        margin-top: 32px;
+        margin-bottom: 24px;
+        margin-right: 0;
+    }
 
-            /* footer */
+    .om-center {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
 
-            footer {
-                height: 86px;
-            }
+    .om-center-reverse {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
 
-            .footer-container {
-                margin-left: 16px;
-                margin-right: 16px;
-                height: 86px;
-            }
+    /* Find us at */
 
-            .sakura-logo-footer1 {
-                display: none;
-            }
+    .section-fua {
+        padding-top: 72px;
+    }
 
-            .sakura-logo-footer2 {
-                display: unset;
-            }
-        }
+    .section-fua h2 {
+        margin-bottom: 8px;
+    }
+
+    .adresse {
+        margin-bottom: 40px;
+    }
+
+    .map-marker {
+        height: 16px;
+    }
+
+    /* footer */
+
+    footer {
+        height: 86px;
+    }
+
+    .footer-container {
+        margin-left: 16px;
+        margin-right: 16px;
+        height: 86px;
+    }
+
+    .sakura-logo-footer1 {
+        display: none;
+    }
+
+    .sakura-logo-footer2 {
+        display: unset;
+    }
+}
