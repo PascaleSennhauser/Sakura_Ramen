@@ -272,7 +272,7 @@ table {
 }
 
 .adresse {
-    margin-bottom: 64px;
+    margin-bottom: 96px;
     display: flex;
     align-items: center;
 }
@@ -280,11 +280,6 @@ table {
 .map-marker {
     height: 24px;
     margin-right: 4px;
-}
-
-.google-maps {
-    width: 100%;
-    height: 600px;
 }
 
 /* footer */
@@ -303,17 +298,17 @@ footer {
     align-items: center;
 }
 
-.impressum-datenschutz-container {
+.impressum-privacy-container {
     color: white;
 }
 
-.impressum-datenschutz-container a{
+.impressum-privacy-container a{
     text-decoration: none;
     color: white;
     font-size: 20px;
 }
 
-.impressum-datenschutz-container a:hover {
+.impressum-privacy-container a:hover {
     cursor: pointer;
     text-decoration: underline;
 }
@@ -421,7 +416,7 @@ footer {
     }
 
     .adresse {
-        margin-bottom: 48px;
+        margin-bottom: 96px;
     }
 
     .map-marker {
@@ -433,6 +428,19 @@ footer {
     .footer-container {
         margin-left: 24px;
         margin-right: 24px;
+    }
+}
+
+/* Added media query */
+
+@media(max-width: 850px) {
+
+    .sakura-logo-footer1 {
+        display: none;
+    }
+
+    .sakura-logo-footer2 {
+        display: unset;
     }
 }
 
@@ -541,7 +549,7 @@ footer {
     }
 
     .adresse {
-        margin-bottom: 40px;
+        margin-bottom: 72px;
     }
 
     .map-marker {
@@ -560,11 +568,19 @@ footer {
         height: 86px;
     }
 
-    .sakura-logo-footer1 {
+    .impressum-privacy-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .impressum-privacy-container span {
         display: none;
     }
 
-    .sakura-logo-footer2 {
-        display: unset;
+    .impressum-privacy-container a{
+        font-size: 16px;
+        line-height: 1.5;
     }
+
 }
