@@ -1,3 +1,6 @@
+/**
+ * This function translates the page in german.
+ */
 function german(){
     document.getElementById('jsMenu').innerHTML = 'MENÜ';
     document.getElementById('jsLocations').innerHTML = 'STANDORT';
@@ -21,7 +24,9 @@ function german(){
     document.getElementById('jsPrivacyPolicy').innerHTML = 'Datenschutz';
 }
 
-
+/**
+ * This function translates the page in english.
+ */
 function english(){
     document.getElementById('jsMenu').innerHTML = 'MENU';
     document.getElementById('jsLocations').innerHTML = 'LOCATIONS';
