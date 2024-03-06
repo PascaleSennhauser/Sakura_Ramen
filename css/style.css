@@ -54,7 +54,7 @@ table {
 
 .aot {
     height: 100vh;
-    background-image: url(./assets/img/1_hero/JPG/hero_bg.jpg);
+    background-image: url(../assets/img/1_hero/JPG/hero_bg.jpg);
     background-size: cover;
     background-position: center;
     display: flex;
@@ -188,7 +188,7 @@ p {
 /* Our Menu */
 
 .section-om {
-    background-image: url(./assets/img/3_section_our_menu/JPG/section_our_menu_bg.jpg);
+    background-image: url(../assets/img/3_section_our_menu/JPG/section_our_menu_bg.jpg);
     background-size: cover;
     background-position: center;
 }
