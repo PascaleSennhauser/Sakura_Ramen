@@ -21,6 +21,7 @@ function german(){
     document.getElementById('jsBeef3').innerHTML = 'Rind';
     document.getElementById('jsShrimp3').innerHTML = 'Shrimp';
     document.getElementById('jsFuaTitle').innerHTML = 'UNSER STANDORT';
+    document.getElementById('jsImprint').innerHTML = 'Impressum';
     document.getElementById('jsPrivacyPolicy').innerHTML = 'Datenschutz';
 }
 
@@ -47,5 +48,6 @@ function english(){
     document.getElementById('jsBeef3').innerHTML = 'Beef';
     document.getElementById('jsShrimp3').innerHTML = 'Shrimp';
     document.getElementById('jsFuaTitle').innerHTML = 'FIND US AT';
+    document.getElementById('jsImprint').innerHTML = 'Imprint';
     document.getElementById('jsPrivacyPolicy').innerHTML = 'Privacy Policy';
 }
